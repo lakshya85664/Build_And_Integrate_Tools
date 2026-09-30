@@ -1,0 +1,12 @@
+{"event": "transient_failure", "tool": "flaky_tool", "attempt": 1, "error": "TransientToolError", "message": "temporary service failure", "retry": true, "status": "retrying"}
+{"event": "tool_success", "tool": "flaky_tool", "attempt": 2, "status": "success"}
+{"event": "permanent_failure", "tool": "permanent_tool", "attempt": 1, "error": "PermanentToolError", "message": "permanent tool failure", "retry": false, "status": "failed"}
+{"event": "transient_failure", "tool": "flaky_tool", "attempt": 1, "error": "TransientToolError", "message": "temporary service failure", "retry": true, "status": "retrying"}
+{"event": "tool_success", "tool": "flaky_tool", "attempt": 2, "status": "success"}
+{"event": "transient_failure", "tool": "always_flaky", "attempt": 1, "error": "TransientToolError", "message": "temporary service failure", "retry": true, "status": "retrying"}
+{"event": "transient_failure", "tool": "always_flaky", "attempt": 2, "error": "TransientToolError", "message": "temporary service failure", "retry": true, "status": "retrying"}
+{"event": "retry_exhausted", "tool": "always_flaky", "attempt": 3, "error": "TransientToolError", "message": "temporary service failure", "status": "failed"}
+{"event": "permanent_failure", "tool": "permanent_tool", "attempt": 1, "error": "PermanentToolError", "message": "permanent tool failure", "retry": false, "status": "failed"}
+{"event": "transient_failure", "tool": "retry_tool", "attempt": 1, "error": "TransientToolError", "message": "temporary service failure", "retry": true, "status": "retrying"}
+{"event": "transient_failure", "tool": "retry_tool", "attempt": 2, "error": "TransientToolError", "message": "temporary service failure", "retry": true, "status": "retrying"}
+{"event": "tool_success", "tool": "retry_tool", "attempt": 3, "status": "success"}

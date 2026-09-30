@@ -1,0 +1,4 @@
+{"event": "tool_requested", "tool": "get_status", "arguments": {"item": "agent", "secret": "***REDACTED***"}}
+{"event": "arguments_validated", "tool": "get_status", "status": "success"}
+{"event": "authority_granted", "tool": "get_status", "status": "success"}
+{"event": "tool_completed", "tool": "get_status", "result": "status for agent: ready", "duration_ms": 1.937, "status": "success"}

@@ -1,0 +1,2 @@
+{"case": "happy_path", "result": "Weather for Surat: 25 degrees C", "status": "success"}
+{"case": "failure_path", "error": "ToolValidationError", "message": "unit must be 'C' or 'F'", "status": "rejected"}
